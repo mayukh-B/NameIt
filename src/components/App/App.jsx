@@ -6,12 +6,21 @@ import './App.css'
 class App extends React.Component {
     state = {
         headerText: 'Name It',
+        isExpanded: true,
     }
+
+    handleInputChange = (inputText) => {
+        this.setState({ isExpanded: !inputText })
+    }
+
     render() {
         return (
             <div>
-                <Header headTitle={this.state.headerText} />
-                <SearchBox />
+                <Header
+                    isExpanded={this.state.isExpanded}
+                    headTitle={this.state.headerText}
+                />
+                <SearchBox onInputChange={this.handleInputChange} />
             </div>
         )
     }
