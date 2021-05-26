@@ -1,4 +1,4 @@
-# Name It
+# Name It - A name choosing web-app.
 
 ## This is a simple ReactJS project.
 
