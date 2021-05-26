@@ -2,7 +2,9 @@
 
 ## This is a simple ReactJS project.
 
-![Alt text](./public/nameitimg.png 'a title')
+![Alt text](./public/nameitimg.png 'Preview 1')
+
+![Alt text](./public/nameitem2.png 'Preview 2')
 
 ---
 
